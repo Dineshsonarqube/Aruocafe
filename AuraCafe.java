@@ -6,7 +6,7 @@ public class AuraCafe {
         CafeOperationImpl cafeOperationImpl = new CafeOperationImpl();
         cafeOperationImpl.openCafe();
         cafeOperationImpl.getClosingCollection(false);
-        
+        System.out.println("Welcome");
     }
 }
 
